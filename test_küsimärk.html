@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veebilõust</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* Navigation Bar */
+        .menu {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            background: white;
+            padding: 12px 24px;
+            font-size: 18px;
+        }
+        .menu a {
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+        }
+
+        /* Banner Section */
+        .header {
+            height: 265px;
+            background: url(cool-background.png) center/cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .header h1 {
+            font-size: 64px;
+            margin: 0;
+        }
+        .header p {
+            font-size: 24px;
+            margin: 5px 0;
+        }
+        .button {
+            background: black;
+            color: white;
+            font-size: 18px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        /* Content Section */
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 80%;
+            margin: 50px auto;
+            height: 400px;
+        }
+        .text {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .text h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .text p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+        .text p:first-child {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .image {
+            width: 300px;
+            height: 400px;
+            object-fit: cover;
+            margin-left: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(0, 0, 0, 0.64);
+            text-align: center;
+            padding: 64px;
+            font-size: 24px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="menu">
+        <a href="#">Avaleht</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </div>
+
+    <!-- Banner -->
+    <div class="header">
+        <h1>Veebilõust</h1>
+        <p>Sinu nimi</p>
+        <button class="button">Suvaline nupp</button>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <div class="text">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint id enim quod debitis harum, aut, nisi in distinctio reiciendis repellat odit quia, explicabo vero provident exercitationem ad! Maiores, reiciendis nesciunt.</p>
+        </div>
+        <img class="image" src="https://picsum.photos/300/400" alt="Random Image">
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Salvestamine on nõrkadele
+    </div>
+
+</body>
+</html
